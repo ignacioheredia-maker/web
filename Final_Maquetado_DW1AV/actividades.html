@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald:wght@400;700&family=Roboto:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Contáctanos</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo-nav">
+            <div class="logos">
+                <a href="index.html"><img src="IMG/logos/logo1.png" alt="logo del gimnasio"></a>
+            </div>
+            <nav>
+                <ul class="ul">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="conocenos.html">Conocenos</a></li>
+                    <li><a href="actividades.html">Actividades</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="sedes.html">Sedes</a></li>
+                    <li><a href="contactanos.html">Contactanos</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="banner">
+            <img src="IMG/banner.jpg" alt="Banner de promoción">
+        </div>
+    </header>
+    <main>
+        <h1 class="actividades-title">Actividades</h1>
+        <section>
+            <!-- Container for the image gallery -->
+            <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="IMG/actividades/artesmarciales.webp" alt="dos hombres practicando artes marciales"
+                        style="width:100%">
+                    <div class="text">
+                        <h2 class="actividades1">Artes Marciales</h2><br>
+                        <ul>
+                            <li><strong>Kihon (técnicas básicas):</strong> Practicar golpes, patadas y bloqueos.</li>
+                            <li><strong>Formas (Katas o Poomsae):</strong> Secuencias de movimientos preestablecidos.
+                            </li>
+                            <li><strong>Defensa personal:</strong> Técnicas de defensa contra agarres, golpes y ataques
+                                con
+                                armas.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="IMG/actividades/ciclismoindoor.webp" alt="gimnasio de bicicletas" style="width:100%">
+                    <div class="text">
+                        <h2>Ciclismo Indoor</h2><br>
+                        <ul>
+                            <li><strong>Entrenamiento de resistencia:</strong> Pedaleo a un ritmo constante y desafiante
+                                durante 10-20 minutos.</li>
+                            <li><strong>Trabajo de cadencia:</strong> Alternar entre pedaleo rápido y pedaleo lento con
+                                resistencia durante 1 minuto cada uno.</li>
+                            <li><strong>Simulación de carrera:</strong> Simular una carrera contrarreloj de 20 minutos a
+                                ritmo sostenido.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="IMG/actividades/entrenamientofuncional.webp" alt="equipo haciendo cardio"
+                        style="width:100%">
+                    <div class="text">
+                        <h2>Entrenamiento Funcional</h2><br>
+                        <ul>
+                            <li><strong>Box Jumps</strong> Saltos en caja de diferentes alturas, saltos laterales en
+                                caja.
+                            </li>
+                            <li><strong>Pull-Ups</strong> Dominadas con agarre supino, dominadas con agarre prono,
+                                dominadas
+                                asistidas.</li>
+                            <li><strong>Russian Twists</strong> Giros rusos con peso, giros rusos con balón medicinal.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="IMG/actividades/fuerzaycondicionamiento.webp"
+                        alt="hombre haciendo resistencia con mancuernas" style="width:100%">
+                    <div class="text">
+                        <h2>Fuerza Y Acondicionamiento</h2><br>
+                        <ul>
+                            <li><strong>Calentamiento (5-10 minutos)</strong> Saltar la cuerda</li>
+                            <li><strong>Ejercicio de Resistencia (20 minutos)</strong> Correr en cinta a ritmo moderado
+                            </li>
+                            <li><strong>Circuito de Acondicionamiento (4 rondas, 40 segundos de trabajo, 20 segundos de
+                                    descanso)</strong> Burpees-Mountain climbers-Kettlebell swings</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="IMG/actividades/yoga.webp" alt="equipo de yoga" style="width:100%">
+                    <div class="text">
+                        <h2>Yoga</h2><br>
+                        <ul>
+                            <li><strong>Calentamiento</strong> Tadasana-Estiramiento lateral-Rotaciones de cuello y
+                                hombros
+                            </li>
+                            <li><strong>Secuencia de Saludos al Sol</strong> Tadasana-Urdhva Hastasana-Uttanasana</li>
+                            <li><strong>Relajación y Meditación</strong> Balasana-Savasana</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footersection">
+            <div class="info">
+                <ul>
+                    <li><strong>Ignacio Martin Heredia</strong></li>
+                    <li>27 años</li>
+                    <li>herediaignaciomartin@gmail.com</li>
+                    <li>ig:nash.cmk</li>
+                </ul>
+            </div>
+            <div>
+                <h4>¡Encuentra nuestra sede principal!</h4>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.2183531544924!2d-58.524588822884326!3d-34.59863965723238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7c791cbb199%3A0x616d0529ad7dae30!2sAv.%20Gral.%20Mosconi%204500%2C%20C1419%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1718388666179!5m2!1ses!2sar"
+                    width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="imgfooter">
+                <img src="IMG/footer/yop.webp" alt="yo">
+            </div>
+        </section>
+    </footer>
+    <script src="JS/ext.js"></script>
+</body>
+
+</html>
